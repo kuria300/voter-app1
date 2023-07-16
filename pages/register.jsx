@@ -115,7 +115,7 @@ const Home = () => {
 
                     </div>
                     <div className="absolute top-10 right-0 w-[80%] h-[400px] z-[1] opacity-10">
-                        <img src="/mku.png" alt="" className="h-full w-full object-cover " />
+                        <Image src="/mku.png" alt="" className="h-full w-full object-cover " />
                     </div>
 
 
