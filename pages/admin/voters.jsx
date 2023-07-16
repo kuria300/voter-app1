@@ -52,7 +52,7 @@ const Contacts = () => {
             setMessage('Error😢')
             setOpened(true)
         }
-    }
+    },[isSuccess, isError])
     const { colors } = useGlobalProvider()
     const columns = [
         { field: "reg", headerName: "Reg No.", flex: 1, minWidth: 150, },
